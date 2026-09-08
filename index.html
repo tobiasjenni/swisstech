@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Build your next financial product with Swisstech. Modular banking, payments, crypto and compliance software — and SwissXO, our self-custody wallet and private communication app."
+    />
+    <meta name="theme-color" content="#f3f2ee" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Swisstech — Build what’s next in finance.</title>
+    <link rel="icon" href="./favicon.svg" />
+    <link rel="preload" as="image" href="./hero-sculpture.webp" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./refinements.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <header class="header">
+      <a class="brand" href="#" aria-label="Swisstech home"
+        >swiss<span>tech</span><i class="cross" aria-hidden="true"></i></a
+      ><button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        Menu <span>☰</span>
+      </button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#platform">Platform <span>⌄</span></a
+        ><a href="#solutions">Solutions</a
+        ><a href="#swissxo">SwissXO <span class="new">NEW</span></a
+        ><a href="#company">Why Swisstech</a>
+      </nav>
+      <button class="button dark nav-cta" data-contact>
+        Let’s build <span>↗</span>
+      </button>
+    </header>
+    <main id="main">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="status-dot"></span> SWISS ENGINEERING. LIMITLESS
+            POSSIBILITIES.
+          </div>
+          <h1>
+            Build what’s<br />next in<br /><span class="hero-last"
+              >finance<span class="period">.</span></span
+            >
+          </h1>
+          <p>
+            The technology behind your ambition.<br />Banking, payments, crypto
+            and compliance.<br />One modular platform. Entirely your brand.
+          </p>
+          <div class="actions">
+            <button class="button red" data-contact>
+              Start building <span>↗</span></button
+            ><a class="button outline" href="#platform"
+              ><span class="play-icon">▶</span> Explore the platform</a
+            >
+          </div>
+          <div class="hero-proof">
+            <span><i class="mini-cross"></i> Swiss-based technology</span
+            ><span>Built for web & mobile</span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="sculpture-stage">
+            <img
+              class="sculpture"
+              src="./hero-sculpture.webp"
+              alt="Sculptural Swiss cross assembled from polished metal and red modular blocks"
+              width="1254"
+              height="1254"
+              fetchpriority="high"
+            />
+          </div>
+          <a
+            class="art-label label-top"
+            href="#modules"
+            data-modules="experience"
+          >
+            <span class="tiny-icon">⌘</span>
+            <div>Your vision.<strong>Connected.</strong></div>
+            <span class="signal"><i></i><i></i><i></i><i></i></span>
+          </a>
+          <a class="art-label label-bottom" href="#modules" data-modules="all">
+            <span class="tiny-icon red-icon">+</span>
+            <div>16 modules.<strong>One ecosystem.</strong></div>
+            <span class="label-arrow">↗</span>
+          </a>
+          <div class="art-coordinate">SWISS PRECISION / GLOBAL AMBITION</div>
+          <div class="art-index">SWT® — 001</div>
+        </div>
+        <div class="hero-bottom">
+          <a href="#platform"
+            ><span class="circle-arrow">↓</span> Discover what’s possible</a
+          ><span>SOFTWARE THAT MOVES FINANCE FORWARD</span
+          ><button
+            class="motion-toggle"
+            aria-pressed="false"
+            aria-label="Pause decorative motion"
+          >
+            Ⅱ <span>Pause motion</span>
+          </button>
+        </div>
+      </section>
+      <nav class="ecosystem-band" aria-label="Explore the module ecosystem">
+        <div class="wrap">
+          <div class="ecosystem-intro">
+            <span class="mini-cross"></span
+            ><span>ONE CONNECTED<br /><b>ECOSYSTEM.</b></span
+            ><small>CHOOSE YOUR STARTING POINT</small>
+          </div>
+          <div class="ecosystem-links">
+            <a href="#modules" data-modules="banking"
+              ><small>01 / MOVE MONEY</small
+              ><strong>Banking &<br />payments <span>↗</span></strong>
+              <p>Accounts. Cards. Global rails.</p></a
+            >
+            <a href="#modules" data-modules="crypto"
+              ><small>02 / CONNECT ASSETS</small
+              ><strong>Digital<br />assets <span>↗</span></strong>
+              <p>Wallets. Custody. Exchange.</p></a
+            >
+            <a href="#modules" data-modules="compliance"
+              ><small>03 / BUILD TRUST</small
+              ><strong>Identity &<br />compliance <span>↗</span></strong>
+              <p>KYC. KYB. Risk intelligence.</p></a
+            >
+            <a href="#modules" data-modules="experience"
+              ><small>04 / MAKE IT YOURS</small
+              ><strong>Branded<br />experiences <span>↗</span></strong>
+              <p>Web. Mobile. Back office.</p></a
+            >
+          </div>
+        </div>
+      </nav>
+      <section class="platform section wrap" id="platform">
+        <div class="section-heading reveal">
+          <div class="eyebrow">
+            <span class="section-index">01</span> THE PLATFORM
+          </div>
+          <h2>
+            Big ambition.<br /><span class="subtle"
+              >Meet your building blocks.</span
+            >
+          </h2>
+          <p>
+            From the first account to the next big idea. Connect the modules you
+            need and create a financial experience that’s unmistakably yours.
+          </p>
+        </div>
+        <div class="platform-workbench reveal">
+          <div
+            class="product-tabs"
+            role="tablist"
+            aria-label="Explore platform capabilities"
+          >
+            <button
+              id="tab-banking"
+              role="tab"
+              aria-selected="true"
+              aria-controls="product-panel"
+              data-product="banking"
+              class="active"
+            >
+              <span class="tab-number">01</span>
+              <div>
+                <strong>Banking & accounts</strong
+                ><small>Your financial foundation.</small>
+              </div>
+              <span class="tab-arrow">↗</span></button
+            ><button
+              id="tab-payments"
+              role="tab"
+              aria-selected="false"
+              tabindex="-1"
+              aria-controls="product-panel"
+              data-product="payments"
+            >
+              <span class="tab-number">02</span>
+              <div>
+                <strong>Payments & cards</strong
+                ><small>Make every connection count.</small>
+              </div>
+              <span class="tab-arrow">↗</span></button
+            ><button
+              id="tab-compliance"
+              role="tab"
+              aria-selected="false"
+              tabindex="-1"
+              aria-controls="product-panel"
+              data-product="compliance"
+            >
+              <span class="tab-number">03</span>
+              <div>
+                <strong>KYC, KYB & compliance</strong
+                ><small>Know who. Understand how.</small>
+              </div>
+              <span class="tab-arrow">↗</span></button
+            ><button
+              id="tab-crypto"
+              role="tab"
+              aria-selected="false"
+              tabindex="-1"
+              aria-controls="product-panel"
+              data-product="crypto"
+            >
+              <span class="tab-number">04</span>
+              <div>
+                <strong>Crypto & exchange</strong
+                ><small>Traditional meets digital.</small>
+              </div>
+              <span class="tab-arrow">↗</span>
+            </button>
+            <div class="tabs-footer">
+              <i class="mini-cross"></i
+              ><span>Combine modules.<br />Make the platform your own.</span>
+            </div>
+          </div>
+          <div
+            class="product-panel"
+            id="product-panel"
+            role="tabpanel"
+            aria-labelledby="tab-banking"
+            tabindex="0"
+          >
+            <div class="preview-toolbar">
+              <span class="preview-mark">your<span>brand</span><i>✳</i></span
+              ><span class="demo-label">INTERACTIVE PRODUCT CONCEPT</span>
+              <div
+                class="theme-controls"
+                role="group"
+                aria-label="Preview brand colour"
+              >
+                <button
+                  class="theme-dot active"
+                  data-theme="red"
+                  aria-label="Red brand colour"
+                  aria-pressed="true"
+                ></button
+                ><button
+                  class="theme-dot"
+                  data-theme="blue"
+                  aria-label="Blue brand colour"
+                  aria-pressed="false"
+                ></button
+                ><button
+                  class="theme-dot"
+                  data-theme="green"
+                  aria-label="Green brand colour"
+                  aria-pressed="false"
+                ></button>
+              </div>
+            </div>
+            <div id="product-content" aria-live="polite"></div>
+            <div class="preview-caption">
+              <span
+                ><i class="status-dot"></i> Your interface. Powered by
+                Swisstech.</span
+              ><span>ILLUSTRATIVE DATA</span>
+            </div>
+          </div>
+        </div>
+        <div class="platform-summary reveal">
+          <div><strong>16</strong><span>Connected modules</span></div>
+          <div>
+            <strong>100<span>%</span></strong
+            ><span>Your brand experience</span>
+          </div>
+          <div>
+            <strong>Web<span> + </span>Mobile</strong
+            ><span>One product, every screen</span>
+          </div>
+          <button class="text-link" data-contact>
+            Find your configuration <span>↗</span>
+          </button>
+        </div>
+        <details class="catalogue" id="modules">
+          <summary>
+            <span>Explore the complete module library</span
+            ><span class="catalogue-count">16 MODULES <b>+</b></span>
+          </summary>
+          <div class="catalogue-body">
+            <div
+              class="filters"
+              role="group"
+              aria-label="Filter platform modules"
+            >
+              <button data-filter="all" aria-pressed="true" class="active">
+                All modules <span>16</span></button
+              ><button data-filter="banking" aria-pressed="false">
+                Banking & payments</button
+              ><button data-filter="compliance" aria-pressed="false">
+                Compliance</button
+              ><button data-filter="crypto" aria-pressed="false">
+                Digital assets</button
+              ><button data-filter="experience" aria-pressed="false">
+                Web & mobile
+              </button>
+            </div>
+            <div class="module-grid" id="module-grid" aria-live="polite"></div>
+          </div>
+        </details>
+      </section>
+      <section class="statement">
+        <div class="wrap statement-inner">
+          <div class="eyebrow">
+            <i class="mini-cross"></i> BUILT TO BE YOURS
+          </div>
+          <h2 class="reveal">
+            Your brand.<br />Your rules.<br /><span>Our engine.</span>
+          </h2>
+          <div class="statement-aside">
+            <div class="stack-art" aria-hidden="true">
+              <div class="stack-layer layer-one">
+                <i>+</i><span>YOUR EXPERIENCE</span>
+              </div>
+              <div class="stack-layer layer-two">
+                <i>↗</i><span>YOUR PRODUCT</span>
+              </div>
+              <div class="stack-layer layer-three">
+                <i>✳</i><span>SWISSTECH CORE</span>
+              </div>
+            </div>
+            <p>
+              A powerful foundation.<br />A product that feels entirely your
+              own.
+            </p>
+            <a href="#solutions" class="text-link"
+              >Find your starting point <span>↓</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="solutions-section section wrap" id="solutions">
+        <div class="section-heading reveal">
+          <div class="eyebrow">
+            <span class="section-index">02</span> POSSIBILITIES, NOT LIMITS
+          </div>
+          <h2>What will<br /><span class="subtle">you build?</span></h2>
+          <p>
+            Your business model sets the direction.<br />Our software brings it
+            to life.
+          </p>
+        </div>
+        <div class="solutions">
+          <button class="solution reveal" data-solution="Digital banking">
+            <div class="solution-top">
+              <span>01 / DIGITAL BANKING</span><i>↗</i>
+            </div>
+            <div class="solution-visual bank-visual" aria-hidden="true">
+              <div class="mini-account">
+                <span>Account balance <b>↗</b></span
+                ><strong>€24,850.00</strong>
+                <div class="mini-bars">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+                  ><i></i>
+                </div>
+              </div>
+              <div class="mini-bankcard">
+                <span>yourbrand <i>✳</i></span
+                ><b>•••• 2084</b><small>BUSINESS</small>
+              </div>
+            </div>
+            <h3>Banking.<br />With your name on it.</h3>
+            <p>
+              Accounts, payments and cards. Bring your banking experience
+              together, from onboarding to everyday use.
+            </p>
+            <div class="tags">
+              <span>IBANs</span><span>Core banking</span
+              ><span>Mobile apps</span>
+            </div>
+          </button>
+          <button class="solution reveal" data-solution="Crypto & exchanges">
+            <div class="solution-top">
+              <span>02 / DIGITAL ASSETS</span><i>↗</i>
+            </div>
+            <div class="solution-visual crypto-visual" aria-hidden="true">
+              <div class="coin coin-btc">₿</div>
+              <div class="exchange-orbit"></div>
+              <div class="exchange-symbol">⇄</div>
+              <div class="coin coin-eth">Ξ</div>
+              <span class="crypto-caption">FIAT ↔ DIGITAL</span>
+            </div>
+            <h3>A new world.<br />Already connected.</h3>
+            <p>
+              Connect wallets, custody and exchange. Make digital assets part of
+              a complete financial product.
+            </p>
+            <div class="tags">
+              <span>Crypto exchange</span><span>Wallets</span
+              ><span>Liquidity</span>
+            </div>
+          </button>
+          <button class="solution reveal" data-solution="Payments & fintech">
+            <div class="solution-top">
+              <span>03 / PAYMENTS & FINTECH</span><i>↗</i>
+            </div>
+            <div class="solution-visual payment-visual" aria-hidden="true">
+              <div class="payment-route">
+                <span class="route-origin">CHF</span><i></i
+                ><span class="route-destination">EUR</span>
+              </div>
+              <div class="mini-transfer">
+                <span class="transfer-check">✓</span>
+                <div>
+                  Payment received<small>Your business, connected.</small>
+                </div>
+                <b>↗</b>
+              </div>
+            </div>
+            <h3>Money moves.<br />Your business follows.</h3>
+            <p>
+              Bring cross-border payments, currency conversion and customer
+              verification into one experience.
+            </p>
+            <div class="tags">
+              <span>SEPA / SWIFT</span><span>FX</span><span>KYC / KYB</span>
+            </div>
+          </button>
+        </div>
+      </section>
+      <section class="swissxo-section" id="swissxo">
+        <div class="xo-grain" aria-hidden="true"></div>
+        <div class="wrap">
+          <div class="xo-topline">
+            <span class="xo-wordmark"
+              >Swiss<span>XO</span><i>BY SWISSTECH</i></span
+            ><span class="xo-new"
+              ><i class="status-dot"></i> OUR NEW PRODUCT</span
+            >
+          </div>
+          <div class="xo-heading reveal">
+            <h2>Own your assets.<br /><span>Own your space.</span></h2>
+            <p>
+              Self-custody meets private communication.<br />Your money and your
+              conversations.<br />Right where they belong. With you.
+            </p>
+          </div>
+          <div class="xo-stage">
+            <div class="xo-orbit orbit-one"></div>
+            <div class="xo-orbit orbit-two"></div>
+            <div class="xo-background-word" aria-hidden="true">
+              YOUR CONTROL.
+            </div>
+            <div class="xo-floating-note note-keys">
+              <span>◇</span>
+              <div>Your keys.<strong>Your device.</strong></div>
+            </div>
+            <div class="phone phone-left">
+              <img
+                src="./swissxo-markets.jpg"
+                alt="SwissXO markets view with asset prices and watchlists"
+                loading="lazy"
+                width="590"
+                height="1280"
+              />
+            </div>
+            <div class="phone phone-center">
+              <img
+                id="xo-screen"
+                src="./swissxo-wallet-funded.webp"
+                alt="SwissXO self-custody wallet with keys held on the device"
+                loading="lazy"
+                width="590"
+                height="1280"
+              />
+            </div>
+            <div class="phone phone-right">
+              <img
+                src="./swissxo-wallets-funded.webp"
+                alt="SwissXO wallet manager showing multiple wallets including Trust Wallet"
+                loading="lazy"
+                width="590"
+                height="1280"
+              />
+            </div>
+            <div class="xo-floating-note note-chat">
+              <span>↗</span>
+              <div>Stay close.<strong>Keep it private.</strong></div>
+              <i>◉ &nbsp; ▷</i>
+            </div>
+            <div
+              class="screen-switcher"
+              role="group"
+              aria-label="SwissXO screenshots"
+            >
+              <button class="active" data-screen="wallet" aria-pressed="true">
+                Wallet</button
+              ><button data-screen="wallets" aria-pressed="false">
+                Your wallets</button
+              ><button data-screen="portfolio" aria-pressed="false">
+                Portfolio
+              </button>
+            </div>
+          </div>
+          <div class="xo-bottom">
+            <span>SWISSXO APP SCREENS · ILLUSTRATIVE BALANCES</span
+            ><button class="button light" data-contact data-interest="SwissXO">
+              Meet SwissXO <span>↗</span></button
+            ><span>SELF-CUSTODY. HUMAN CONNECTION.</span>
+          </div>
+          <div class="xo-features">
+            <article>
+              <span class="feature-symbol">◇</span>
+              <h3>Your assets. Your keys.</h3>
+              <p>
+                Keys generated and held on your device. Add existing wallets,
+                including wallets used with Trust Wallet or MetaMask.
+              </p>
+            </article>
+            <article>
+              <span class="feature-symbol">↗</span>
+              <h3>Conversations stay yours.</h3>
+              <p>
+                End-to-end encrypted chat with conversation history stored
+                locally. Built around your private space.
+              </p>
+            </article>
+            <article>
+              <span class="feature-symbol">◉</span>
+              <h3>Closer, wherever you are.</h3>
+              <p>
+                Move from messages to end-to-end encrypted voice and video
+                calls. One place to stay connected.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="company section wrap" id="company">
+        <div class="company-title reveal">
+          <div class="eyebrow">
+            <span class="section-index">03</span> THE SWISSTECH DIFFERENCE
+          </div>
+          <h2>
+            Swiss precision.<br /><span class="subtle"
+              >Entrepreneurial spirit.</span
+            >
+          </h2>
+        </div>
+        <div class="company-body">
+          <div class="company-mark" aria-hidden="true">
+            <div class="swiss-grid"><i></i><i></i><i></i><i></i><i></i></div>
+            <span>ENGINEERED TO CONNECT.</span>
+          </div>
+          <div class="company-copy">
+            <p class="large-copy">
+              Great financial products start with a solid foundation. We build
+              the technology that lets you focus on what makes yours different.
+            </p>
+            <p>
+              Swisstech is a Swiss-based software company connecting banking,
+              payments, compliance and digital assets. From a single module to a
+              complete ecosystem, we shape the platform around your business.
+            </p>
+            <div class="principles">
+              <article>
+                <span>01</span>
+                <div>
+                  <h3>Built around your business.</h3>
+                  <p>
+                    Custom branding, workflows and integrations that fit your
+                    product.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <span>02</span>
+                <div>
+                  <h3>Control where it matters.</h3>
+                  <p>
+                    Configure operations, roles, fees, limits and compliance
+                    workflows.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <span>03</span>
+                <div>
+                  <h3>With you beyond launch.</h3>
+                  <p>
+                    Integration, handover, maintenance and ongoing development.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="faq-section wrap">
+        <div>
+          <div class="eyebrow">A LITTLE MORE CLARITY</div>
+          <h2>
+            Good questions.<br /><span class="subtle">Straight answers.</span>
+          </h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>
+              Can we start with individual modules?<span>+</span>
+            </summary>
+            <p>
+              Yes. Start with the components you need and scope additional
+              capabilities as your product develops. We’ll map dependencies and
+              integrations around your use case.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Can the platform use our own branding?<span>+</span>
+            </summary>
+            <p>
+              Yes. Web and mobile interfaces can be tailored to your identity,
+              language and product workflows. The configuration and
+              customisation scope is agreed before implementation.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Does Swisstech provide financial services?<span>+</span>
+            </summary>
+            <p>
+              Swisstech provides the software. Banking rails, card programmes
+              and other financial services depend on the selected providers,
+              their approval and availability in your market.
+            </p>
+          </details>
+          <details>
+            <summary>
+              How is SwissXO different from enterprise custody?<span>+</span>
+            </summary>
+            <p>
+              SwissXO is a self-custody product with keys held on the user’s
+              device. The platform’s crypto wallet and custody module is a
+              separate enterprise offering with configurable custody
+              integrations and operational controls.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="wrap">
+          <div class="eyebrow">
+            <i class="mini-cross"></i> YOUR NEXT CHAPTER STARTS HERE
+          </div>
+          <div class="cta-heading">
+            <h2>Let’s build<br /><span>what’s next.</span></h2>
+            <button
+              class="cta-orb"
+              data-contact
+              aria-label="Start a conversation with Swisstech"
+            >
+              ↗
+            </button>
+          </div>
+          <div class="cta-bottom">
+            <p>Bring the ambition. We’ll bring the technology.</p>
+            <a href="mailto:contact@swisstech.dev">contact@swisstech.dev ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <div class="footer-top">
+        <a class="brand" href="#" aria-label="Swisstech home"
+          >swiss<span>tech</span><i class="cross" aria-hidden="true"></i
+        ></a>
+        <p>The technology behind your next move.</p>
+        <div>
+          <a href="#platform">Platform</a><a href="#solutions">Solutions</a
+          ><a href="#swissxo">SwissXO</a><a href="#company">Company</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Swisstech. All rights reserved.</span
+        ><span><i class="mini-cross"></i> Swiss-based. Globally minded.</span
+        ><span>Website concept / V.03</span>
+      </div>
+    </footer>
+    <dialog id="contact-dialog">
+      <button class="close-dialog" aria-label="Close contact form">×</button>
+      <div class="eyebrow">LET’S BUILD SOMETHING</div>
+      <h2>Tell us your vision.</h2>
+      <p>Choose a starting point. We’ll take it from there.</p>
+      <form id="contact-form">
+        <label
+          >Your name<input
+            name="name"
+            autocomplete="name"
+            required
+            maxlength="100"
+            placeholder="Full name" /></label
+        ><label
+          >Work email<input
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+            maxlength="200"
+            placeholder="you@company.com" /></label
+        ><label
+          >I’m interested in<select name="interest">
+            <option>Complete fintech platform</option>
+            <option>Digital banking</option>
+            <option>Crypto & exchanges</option>
+            <option>Payments & fintech</option>
+            <option>KYC / KYB & compliance</option>
+            <option>SwissXO</option>
+            <option>Other / custom development</option>
+          </select></label
+        ><label
+          >Your project<textarea
+            name="message"
+            rows="3"
+            maxlength="3000"
+            placeholder="A little about what you’d like to build…"
+          ></textarea></label
+        ><button class="button red" type="submit">
+          Continue in email <span>↗</span>
+        </button>
+        <p class="form-note">
+          Opens a draft in your email app to contact@swisstech.dev. Nothing is
+          submitted or stored on this website.
+        </p>
+        <p id="form-status" role="status"></p>
+      </form>
+    </dialog>
+  </body>
+</html>
