@@ -31,3 +31,9 @@
 @media(max-width:650px){.v-footer nav{gap:17px;font-size:12px;margin-left:0}.hero-intro{font-size:16px}.v-hero h1{font-size:clamp(59px,13.5vw,80px)}.section-top>p,.cap-card p,.faq p{font-size:15px}.faq summary{font-size:14px}.preview-note,.tour-caption{font-size:11px}}
 .v-hero h1{word-spacing:.045em;letter-spacing:-.06em}
 .v-hero{overflow:clip}
+
+/* Audit: readable primary actions and secondary copy. */
+.primary{background:linear-gradient(120deg,#c8a8ff,#b58bec);color:#21132f}
+.chip-two{right:16px}.sidebar-label,.sidebar-foot small,.stat-card small,.mini-table th,.mini-table small{color:#a69ab5}
+.muted,.seal-caption,.window-bar,.footer-bottom{color:#a99cb7}
+.chip-two{right:35px}@media(min-width:651px) and (max-width:900px){.hero-seal{right:0}}

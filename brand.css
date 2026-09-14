@@ -6,3 +6,5 @@
 @media(max-width:650px){.brand .brand-mark,.swiss-brand .brand-mark{width:28px;height:31px;margin-left:9px}}
 @media(max-width:380px){.v-header{gap:9px;padding:14px 12px}.v-header .swiss-brand{font-size:20px}.v-header .brand-mark{width:24px;height:26px;margin-left:8px}.v-header .portal-link{padding:8px;font-size:10px}.v-header .portal-link span{display:none}}
 @media(max-width:380px){.v-header .menu-toggle{white-space:nowrap;font-size:0}.v-header .menu-toggle span{font-size:16px;margin-left:0}}
+
+.script-notice{max-width:900px;margin:35px auto;padding:20px;border:1px solid currentColor;font-size:16px;line-height:1.6}.script-notice a{text-decoration:underline}
