@@ -795,3 +795,4 @@
 .brand .swiss-symbol { width:29px; height:32px; margin-left:11px; flex:none; fill:none; color:#485954; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
 .brand .swiss-symbol .alpine-shield { fill:#48595405; }
 .brand .swiss-symbol .alpine-peak { stroke-width:1.9; }
+.brand .swiss-symbol .alpine-shield { stroke:#ec392e; fill:#ec392e06; }

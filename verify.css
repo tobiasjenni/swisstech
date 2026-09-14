@@ -17,3 +17,4 @@
 .swiss-symbol .alpine-shield { fill:#b49acc09; }
 .swiss-symbol .alpine-peak { stroke-width:1.9; }
 @media (max-width:650px) { .swiss-symbol { width:24px; height:27px; margin-left:8px; } }
+.swiss-symbol .alpine-shield { stroke:#ef443d; fill:#ef443d08; }
