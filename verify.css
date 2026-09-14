@@ -23,3 +23,11 @@
 .swiss-symbol .alpine-shield, .swiss-symbol .alpine-peak { stroke-width:1.8; }
 .swiss-symbol .alpine-shield { fill:none; }
 @media (max-width:650px) { .swiss-symbol { width:25px; height:28px; } }
+/* Shared product-page navigation and readability refinements. */
+.v-footer nav{display:flex;flex-wrap:wrap;gap:24px;margin-left:auto;font-size:13px;color:#b3a4be}
+.v-header nav a[aria-current=page]{color:#e4cdfc}
+.hero-intro{font-size:18px}.cap-card p,.section-top>p{font-size:16px}.faq p{font-size:15px}.faq summary{font-size:15px}
+.v-hero h1 em{padding-left:.035em}.screen-head p,.screen-card p.screen-note{font-size:11px}.tour-caption{font-size:12px}.preview-note{font-size:12px}.report-row,.queue-item{font-size:11px}
+@media(max-width:650px){.v-footer nav{gap:17px;font-size:12px;margin-left:0}.hero-intro{font-size:16px}.v-hero h1{font-size:clamp(59px,13.5vw,80px)}.section-top>p,.cap-card p,.faq p{font-size:15px}.faq summary{font-size:14px}.preview-note,.tour-caption{font-size:11px}}
+.v-hero h1{word-spacing:.045em;letter-spacing:-.06em}
+.v-hero{overflow:clip}

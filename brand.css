@@ -1,0 +1,8 @@
+/* Shared Swisstech identity. All pages use the same SVG master. */
+.brand,.swiss-brand{display:inline-flex;align-items:center;white-space:nowrap}
+.brand .brand-mark,.swiss-brand .brand-mark{display:block;flex:none;width:34px;height:37px;margin-left:12px;object-fit:contain}
+.brand img,.swiss-brand img{max-width:none}
+.company-mark .brand-mark{width:120px;height:130px;display:block;margin:0 auto 35px}
+@media(max-width:650px){.brand .brand-mark,.swiss-brand .brand-mark{width:28px;height:31px;margin-left:9px}}
+@media(max-width:380px){.v-header{gap:9px;padding:14px 12px}.v-header .swiss-brand{font-size:20px}.v-header .brand-mark{width:24px;height:26px;margin-left:8px}.v-header .portal-link{padding:8px;font-size:10px}.v-header .portal-link span{display:none}}
+@media(max-width:380px){.v-header .menu-toggle{white-space:nowrap;font-size:0}.v-header .menu-toggle span{font-size:16px;margin-left:0}}
