@@ -46,7 +46,7 @@ const modules = [
     intro:
       "Make individual and business onboarding part of one connected experience.",
     detail:
-      "Customisable onboarding flows, sanctions and PEP screening, and optional integrations with verification providers such as Sumsub, Onfido and Ondato.",
+      'Explore <a class="module-verify-link" href="./verify.html">KYC Verify by Swisstech ↗</a> for identity verification, AML screening, crypto risk and document forensics. Customisable onboarding and optional third-party provider integrations can be scoped around your platform.',
     tags: "Identity · Business verification",
   },
   {

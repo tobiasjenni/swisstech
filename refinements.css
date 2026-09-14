@@ -770,3 +770,28 @@
     transition: none;
   }
 }
+
+/* KYC Verify product introduction */
+.module-verify-link { color: #8253bd; text-decoration: underline; text-underline-offset: 3px; }
+.verify-spotlight { background: #100d17; color: #f8f5fc; border: 1px solid #392745; border-radius: 24px; padding: 65px; margin-block: 25px 110px; display: grid; grid-template-columns: 1fr 1fr; gap: 70px; overflow: hidden; }
+.verify-spotlight .eyebrow { color: #b5a2c9; font-size: 9px; gap: 12px; }
+.verify-v { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; color: white; background: linear-gradient(135deg,#c39af4,#743dc9); font: 800 20px var(--display); letter-spacing: -1px; box-shadow: inset 0 1px 2px #ffffff70; }
+.verify-spotlight h2 { font-size: clamp(42px,4.7vw,68px); line-height: 1.05; letter-spacing: -.055em; margin: 28px 0 22px; }
+.verify-spotlight h2 span { color: #b991ee; }
+.verify-spotlight-copy>p { color: #aa9cb6; font-size: 15px; line-height: 1.8; max-width: 390px; }
+.verify-button { background: #ac80e8; color: #fff; margin-top: 28px; }
+.verify-spotlight-art { position: relative; display: flex; align-items: center; min-width: 0; }
+.verify-orbit { position: absolute; border: 1px solid #9268b830; border-radius: 50%; width: 470px; height: 470px; left: -40px; background: radial-gradient(ellipse,#7a3abd24,transparent 70%); }
+.verify-mini-screen { position: relative; width: 100%; border: 1px solid #9d73c63d; border-radius: 17px; padding: 27px; background: linear-gradient(130deg,#261a34,#121018); transform: rotate(3deg); box-shadow: 0 30px 70px #0005; }
+.verify-mini-title { display:flex; align-items:center; gap:10px; font-size:20px; font-weight:700; margin-bottom:24px; }
+.verify-mini-title small { font-size:6px; letter-spacing:1px; margin-left:auto; color:#8c769e; }
+.verify-mini-success { background:#6bcd9420; color:#9ce7b8; font-size:11px; padding:12px; border-radius:7px; margin-bottom:10px; }
+.verify-mini-screen>div:not(.verify-mini-title):not(.verify-mini-success) { display:flex; justify-content:space-between; padding:17px 0; border-bottom:1px solid #ffffff0d; font-size:10px; color:#a797b7; gap:10px; }
+.verify-mini-screen b { color:#c7aedf; font-weight:400; }
+.verify-mini-screen>p { font-size:6px; letter-spacing:1.5px; color:#705e81; margin-top:20px; }
+@media (min-width:1001px) and (max-width:1200px) { .header {gap:20px}.header nav {gap:19px} }
+@media (max-width:850px) { .verify-spotlight {padding:35px;gap:30px}.verify-mini-screen {padding:18px}.verify-mini-title small {display:none} }
+@media (max-width:650px) { .verify-spotlight {grid-template-columns:1fr;padding:30px 24px;margin-block:15px 70px;gap:40px}.verify-spotlight h2 {font-size:46px}.verify-spotlight-art {padding:10px 0}.verify-mini-screen {padding:22px}.verify-mini-title small {display:block}.verify-orbit {width:350px;height:350px;left:-30px} }
+.brand .swiss-symbol { width:29px; height:32px; margin-left:11px; flex:none; fill:none; color:#485954; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
+.brand .swiss-symbol .alpine-shield { fill:#48595405; }
+.brand .swiss-symbol .alpine-peak { stroke-width:1.9; }
