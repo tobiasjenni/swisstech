@@ -18,3 +18,8 @@
 .swiss-symbol .alpine-peak { stroke-width:1.9; }
 @media (max-width:650px) { .swiss-symbol { width:24px; height:27px; margin-left:8px; } }
 .swiss-symbol .alpine-shield { stroke:#ef443d; fill:#ef443d08; }
+/* Refined mark: balanced optical spacing and matching strokes. */
+.swiss-symbol { width:30px; height:33px; }
+.swiss-symbol .alpine-shield, .swiss-symbol .alpine-peak { stroke-width:1.8; }
+.swiss-symbol .alpine-shield { fill:none; }
+@media (max-width:650px) { .swiss-symbol { width:25px; height:28px; } }
